@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">微小说</string>
+    <string name="menu_txt_index">首页</string>
+    <string name="menu_txt_search">搜索</string>
+    <string name="menu_txt_userarea">用户中心</string>
+    <string name="menu_txt_more">更多</string>
+    <string name="dialog_tip">提示</string>
+    <string name="dialog_loading">数据加载中,请稍候...</string>
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_exit">退出</string>
+    <string name="dialog_cancl">取消</string>
+    <string name="eixt_dialog_msg">是否退出应用？</string>
+    <string name="back">返回</string>
+    <string name="refresh">刷新</string>
+     <string name="list_empty_word">当前没有数据</string>
+    <string name="getdata_fail">网络连接失败，请稍候重试</string>
+</resources>

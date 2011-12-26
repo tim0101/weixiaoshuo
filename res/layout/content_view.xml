@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical"
+	android:background="@color/white" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+	<FrameLayout android:id="@id/title" android:background="@drawable/title_bg"
+		android:layout_width="fill_parent" android:layout_height="@dimen/title_height">
+	<Button android:layout_gravity="center|left"
+		android:layout_marginLeft="5dip" android:id="@id/btn_back"
+		android:paddingLeft="5dip"
+		android:background="@anim/title_back_btn" android:layout_width="55dip"
+		android:layout_height="@dimen/title_btn_height" android:text="@string/back"
+		style="@style/style_18_ffffff" />
+		<TextView android:layout_gravity="center" android:id="@id/txt_title_name"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="广之旅微博" style="@style/style_24_000000_bold" />
+		<Button android:layout_gravity="center|right"
+			android:layout_marginRight="5dip" android:id="@+id/btn_refresh"
+			android:background="@anim/title_btn" android:layout_width="55dip"
+			android:layout_height="@dimen/title_btn_height" android:text="@string/refresh"
+			style="@style/style_18_ffffff" />
+	</FrameLayout>
+	<include android:id="@id/menu" layout="@layout/menu_activity" />
+	<RelativeLayout android:layout_width="fill_parent" android:clickable="true"
+		android:layout_height="fill_parent" android:layout_below="@id/title"
+		android:layout_above="@id/menu">
+		<TextView android:layout_width="wrap_content" android:id="@android:id/empty"
+			android:gravity="center" android:layout_centerInParent="true"
+				android:layout_height="wrap_content" android:text="@string/list_empty_word"
+				style="@style/style_18_000000_bold" />
+		<ListView android:id="@+id/lt_content_list"
+			android:focusable="true" android:clickable="true"
+			android:fadingEdge="none"
+			android:paddingLeft="6dip" android:divider="@drawable/listview_item_line"
+			android:paddingRight="6dip" android:layout_width="fill_parent"
+			android:layout_weight="1" android:layout_height="wrap_content"
+			android:paddingBottom="10dip">
+		</ListView>
+
+	</RelativeLayout>
+	<!-- <LinearLayout android:layout_width="fill_parent" android:gravity="center_horizontal" 
+		android:layout_height="fill_parent" android:layout_below="@id/title" android:layout_above="@id/menu"> 
+		<ListView android:id="@+id/lt_content_list" android:clickable="true" android:listSelector="@anim/item_selector" 
+		android:fadingEdge="none" android:paddingLeft="6dip" android:divider="@drawable/listview_item_line" 
+		android:paddingRight="6dip" android:layout_width="fill_parent" android:layout_weight="1" 
+		android:layout_height="wrap_content" android:paddingBottom="10dip"> </ListView> 
+		<LinearLayout android:orientation="vertical" android:id="@android:id/empty" 
+		android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"> <ImageView android:layout_width="250dip" 
+		android:layout_height="wrap_content" android:src="@drawable/gzl_logo" /> 
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" 
+		android:text="@string/shopcar_empty_word" style="@style/style_18_000000_bold" 
+		/> </LinearLayout> </LinearLayout> -->
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@id/titlebar" android:background="@drawable/title_bg"
+	android:layout_width="fill_parent" android:layout_height="@dimen/title_height">
+	<Button android:layout_gravity="center|left"
+		android:layout_marginLeft="5dip" android:id="@id/btn_back"
+		android:paddingLeft="5dip"
+		android:background="@anim/title_back_btn" android:layout_width="55dip"
+		android:layout_height="@dimen/title_btn_height" android:text="@string/back"
+		style="@style/style_18_ffffff" />
+	<TextView android:layout_gravity="center" android:id="@+id/txt_title_name"
+		android:maxWidth="@dimen/title_name_maxlenght" android:singleLine="true"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		style="@style/style_18_000000_bold" />
+</FrameLayout>

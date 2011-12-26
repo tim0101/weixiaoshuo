@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="style_18_000000_bold">
+		<item name="android:textSize">18sp</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	<style name="style_16_666666_BOLD">
+		<item name="android:textSize">16.0sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#ff666666</item>
+	</style>
+	<style name="style_16_666666">
+		<item name="android:textSize">16.0sp</item>
+		<item name="android:textColor">#ff666666</item>
+	</style>
+	<style name="style_18_000000">
+		<item name="android:textSize">18.0sp</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+	<style name="style_18_ffffff">
+		<item name="android:textSize">18.0sp</item>
+		<item name="android:textColor">#ffffff</item>
+	</style>
+	<style name="style_18_ffffff_bold">
+		<item name="android:textSize">18.0sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#ffffff</item>
+	</style>
+	<style name="style_16_000000_bold">
+		<item name="android:textSize">16.0sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+	<style name="style_16_000000">
+		<item name="android:textSize">16.0sp</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+	<style name="style_16_ffffff_BOLD">
+		<item name="android:textSize">16.0sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#ffffff</item>
+	</style>
+	<style name="style_18_orange_BOLD">
+		<item name="android:textSize">18.0sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#ccc000</item>
+	</style>
+	<style name="style_18_0000_BOLD">
+		<item name="android:textSize">18.0sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+	<style name="style_20_000000_bold">
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	<style name="style_20_000000">
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+	<style name="style_pt5_pb5">
+		<item name="android:paddingTop">5dip</item>
+		<item name="android:paddingBottom">5dip</item>
+	</style>
+	<style name="style_pt3_pb3">
+		<item name="android:paddingTop">3dip</item>
+		<item name="android:paddingBottom">3dip</item>
+	</style>
+	<style name="style_list_noedge">
+		<item name="android:fadingEdge">none</item>
+	</style>
+	<style name="style_24_000000_bold">
+		<item name="android:textSize">24.0sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+</resources>

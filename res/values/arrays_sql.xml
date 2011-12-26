@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 创建表 的SQL语句 -->
+	<string-array name="create_table_sql_array">
+	<item name="shopcar">
+			create table if not exists wxsContent (_id integer
+			primary key,
+			content_id long,
+			content varchar(200),
+			user_id long,
+			user_name varchar(20),
+			create_date varchar(20),
+			transmit_num varchar(10),
+			favorite_num varchar(10),
+			comment_num varchar(10)
+	</item>
+	</string-array>
+</resources>

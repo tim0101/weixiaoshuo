@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent" android:background="#ffffff"
+	android:layout_height="fill_parent">
+	<FrameLayout android:id="@+id/title" android:background="@drawable/title_bg"
+		android:layout_width="fill_parent" android:layout_height="@dimen/title_height">
+		<TextView android:layout_gravity="center"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/menu_txt_index" style="@style/style_24_000000_bold" />
+	</FrameLayout>
+		<LinearLayout android:orientation="vertical"
+		android:layout_above="@id/bottom_menu" android:layout_below="@id/title"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		>
+	<GridView android:layout_marginTop="10dip" android:layout_marginBottom="10dip"
+		android:id="@+id/gridview" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:numColumns="3"
+		android:verticalSpacing="13dip" android:horizontalSpacing="5dip"
+		android:stretchMode="columnWidth"
+		android:gravity="center" />
+		</LinearLayout>
+	<include android:id="@id/bottom_menu" layout="@layout/menu_activity"/>
+</RelativeLayout>

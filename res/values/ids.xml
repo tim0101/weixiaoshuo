@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="title">false</item>
+    <item type="id" name="bottom_menu">false</item>
+    <item type="id" name="btn_login">false</item>
+    <item type="id" name="btn_back">false</item>
+    <item type="id" name="btn_order">false</item>
+    <item type="id" name="btn_search">false</item>
+    <item type="id" name="about_line">false</item>
+    <item type="id" name="titlebar">false</item>     
+    <item type="id" name="menu">false</item>
+    <item type="id" name="txt_title_name">false</item>          
+</resources>
